@@ -15,6 +15,9 @@ public class Runner {
 
         System.out.println(Kaelyn.getFirstName());
 
+        Kaelyn.setFirstName("Rebecca");
+        System.out.println(Kaelyn.getFirstName());
+
 
 
     }

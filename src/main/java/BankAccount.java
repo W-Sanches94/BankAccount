@@ -30,6 +30,12 @@
 
      // Setters
 
+     public void setFirstName (String newFirstName) {this.firstName = newFirstName;}
+     public void setLastName (String newLastName) {this.lastName = newLastName;}
+     public void setDateOfBirth (String newDateOfBirth) {this.dateOfBirth = newDateOfBirth;}
+     public void setAccountNumber (int newAccountNumber) {this.accountNumber = newAccountNumber;}
+     public void setBalance (int newBalance) {this.balance = newBalance;}
+
 
 
 
