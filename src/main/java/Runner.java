@@ -13,7 +13,7 @@ public class Runner {
 
         BankAccount Kaelyn = new BankAccount("Kaelyn","Blake","22/04/93",69677441, 3278);
 
-        System.out.println(Kaelyn);
+        System.out.println(Kaelyn.getFirstName());
 
 
 
