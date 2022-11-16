@@ -3,18 +3,26 @@
     private String firstName;
     private String lastName;
     private String dateOfBirth;
-    private Integer accountNumber;
-    private Integer balance;
+    private int accountNumber;
+    private int balance;
 
     // CONSTRUCTOR
 
-     public BankAccount(String inputFirstName, String inputLastName, String inputDateOfBirth, Integer inputAccountNumber, Integer inputBalance) {
+     //Properties
+
+     public BankAccount(String inputFirstName, String inputLastName, String inputDateOfBirth, int inputAccountNumber, int inputBalance){
          this.firstName = inputFirstName;
          this.lastName = inputLastName;
          this.dateOfBirth = inputDateOfBirth;
          this.accountNumber = inputAccountNumber;
          this.balance = inputBalance;
      }
+
+     //Methods
+
+
+
+
 
 
 }

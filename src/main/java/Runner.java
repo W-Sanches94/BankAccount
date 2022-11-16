@@ -11,6 +11,10 @@ public class Runner {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MMM dd, YYY");
         System.out.println(dtf.format(localDate));
 
+        BankAccount Kaelyn = new BankAccount("Kaelyn","Blake","22/04/93",69677441, 3278);
+
+        System.out.println(Kaelyn);
+
 
 
     }
