@@ -18,6 +18,11 @@ public class Runner {
         Kaelyn.setFirstName("Rebecca");
         System.out.println(Kaelyn.getFirstName());
 
+        System.out.println(Kaelyn.getBalance());
+        Kaelyn.enterDeposit(23);
+        System.out.println(Kaelyn.getBalance());
+
+
 
 
     }

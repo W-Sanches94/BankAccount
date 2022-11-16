@@ -19,6 +19,12 @@
      }
 
      //Methods
+     //Create a method called deposit() that takes in an amount updates the balance of the BankAccount.
+     //Create a method called withdrawal() that takes in an amount and updates the balance of the BankAccount.
+
+     //add aditional value to existing balance.
+     public int enterDeposit() {return "Your updated balance is : " + enterDeposit();}
+
 
      // Getters
 
